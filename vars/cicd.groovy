@@ -5,7 +5,7 @@ def gitdwnld(repo)
 
 def mavenbuild()
 {
-  sh 'mvnpackage'
+  sh 'mvn package'
 }
 
 def tomcatdeploy(jobname,ip,context)
